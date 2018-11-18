@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*로그인*/
+body{min-width:1260px;}
+.body_wrapper{width:100%;height:100%;}
+.left_wrapper{float:left;width:390px;height:100%;}
+
+.left_section{background:url(../../images/portal/login/bg_lft_section.png) no-repeat 0 0;background-size:100% 100%;height:100%;}
+.left_section .header{height:116px;}
+.left_section .header h1{padding:50px 0 0 52px;}
+.left_section .container{margin:-116px 0 -136px;min-height:100%;}
+.left_section .contents{padding:116px 0 136px;}
+.contents .login_contents{border-top:1px solid #f69d42;width:277px;margin:17px 0 0 55px;position:relative;}
+.login_contents h2{margin:25px 0 17px;}
+.login_contents .box_wrap{border-bottom:1px solid #f69d42;height:93px;}
+.login_contents .box_wrap .input_box{position:relative;margin-top:5px;}
+.login_contents .box_wrap .input_box input{background:url(../../images/portal/login/bg_input.png) no-repeat 0 0;position:relative;z-index:2;border:none;width:175px;height:33px;color:#fff;font-size:11px;font-family:"돋움", "Dotum";padding-left:20px;}
+.login_contents .box_wrap .input_box input.id_text{position:absolute;}
+.login_contents .box_wrap .input_box input.pwd_text{position:absolute;top:37px;}
+.login_contents .input_chk{float:left;height:18px;margin-top:17px;position:relative;}
+.login_contents .input_chk input{margin-top:3px;}
+.login_contents .input_chk label{background:url(../../images/portal/login/bg_chk.gif) no-repeat 0 3px;position:absolute;top:0;left:0;height:20px;padding-left:25px;width:100px;color:#fff;font-weight:600;font-family:"Malgun Gothic";cursor:pointer;}
+.login_contents .input_chk input[type="checkbox"]:checked + label{background-position:0 -27px;}
+.login_contents .input_btn{position:absolute;top:68px;right:0;}
+.login_contents .input_btn input{background:url(../../images/portal/login/btn_submit.png)no-repeat 0 0;width:76px;height:71px;border:0;cursor:pointer;}
+.login_contents .input_join{float:right;background:url(../../images/portal/login/bg_membership.png)no-repeat 0 2px;padding-left:20px;height:18px;margin-top:15px;}
+.login_contents .input_join a{color:#fff;font-weight:600;font-family:"Malgun Gothic";}
+
+.left_section .footer{height:136px;padding-left:52px;position:relative;z-index:9999;}
+.footer .footer_section{background:url(../../images/portal/login/bg_logo.png)no-repeat 0 center;height:100%;}
+.footer_section p{border-bottom:1px solid #f69d42;width:277px;padding-bottom:18px;}
+.footer_section p strong{color:#fff;}
+.footer_section p span{float:right;}
+
+.rgt_wrap{float:right;height:100%;width:100%;margin-left:-390px;}
+.rgt_wrap .rgt_section{height:100%;padding-left:390px;background:url(../../images/portal/login/bg_rgt_section.png) no-repeat 390px 0;background-size:100% 100%;}
+.rgt_wrap .rgt_section .pad{position:relative;width:796px;margin:0 auto;height:100%;}
+.rgt_wrap .rgt_section .pad img{position:absolute;bottom:0;}

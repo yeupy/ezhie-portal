@@ -1,0 +1,30 @@
+/*!
+ * jQuery UI Dialog 1.8.24
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Licensed under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Dialog#theming
+ */
+.ui-dialog { position: absolute; padding:0; background:#f8f9fb !important; width: 400px; overflow: hidden; border:1px solid #b8b8b8; background:#F1F3F6 !important;}
+.ui-dialog .ui-dialog-titlebar { padding:6px 17px; position: relative;  }
+.ui-dialog .ui-dialog-title { float: left; margin: .1em 16px .1em 0; color:#000; font-size:18px; font-weight:600;} 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-content { position: relative; overflow: auto; zoom: 1; text-align:center; white-space:normal; background:#fff; min-height:0px !important; padding:10px; border:1px solid #ddd; margin:15px;}
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; padding:0; text-align:center; background:#fff;}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { /*float: right;*/ margin-bottom:15px;}
+.ui-dialog .ui-dialog-buttonpane button {border:0; background:#575d6b; color:#fff; cursor: pointer; font-family:Nanum Gothic, NanumGothic, '나눔고딕'; font-size:11px; padding:7px 17px 7px 33px; margin:0 5px;}
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; font-size:17px;}
+
+.ui-dialog-buttonset button:nth-child(1){background:#205fb4 url(../../images/portal/main/bg_check.png) no-repeat 13px center !important;}
+.blue_theme .ui-dialog-buttonset button:nth-child(1){background:#205fb4 url(../../images/portal/main/bg_check.png) no-repeat 13px center !important;}
+.green_theme .ui-dialog-buttonset button:nth-child(1){background:#719b1d url(../../images/portal/main/bg_check.png) no-repeat 13px center !important;}
+.orange_theme .ui-dialog-buttonset button:nth-child(1){background:#e96826 url(../../images/portal/main/bg_check.png) no-repeat 13px center !important;}
+.red_theme .ui-dialog-buttonset button:nth-child(1){background:#cf1218 url(../../images/portal/main/bg_check.png) no-repeat 13px center !important;}
+.purple_theme .ui-dialog-buttonset button:nth-child(1){background:#613dc9 url(../../images/portal/main/bg_check.png) no-repeat 13px center !important;}
+
+.ui-dialog-buttonset button:nth-child(2){background:#f35b4e url(../../images/portal/main/bg_del1.png) no-repeat 13px center !important;}

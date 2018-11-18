@@ -1,0 +1,121 @@
+﻿@charset "UTF-8";
+
+/* Reset */
+*{margin:0;padding:0}
+html, body {width:100%; height:100%; margin:0; padding:0; font-family:"Malgun Gothic", "MalgunGothic", 맑은고딕, 맑은 고딕, sans-serif; }
+body{font-size:12px;  word-break:break-all; -ms-word-break:break-all;}
+a, address, blockquote, br, fieldset, legend, label, form, input, select, textarea, button, table, th, td caption, cite, code, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, div, iframe, ul, ol, li, hr, form, img{margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {font-size:12px; text-align:left;}
+ul, ol, li {list-style:none;}
+abbr,acronym {border:0;}
+img{vertical-align:middle; border:none;}
+img, fieldset{border:none;}
+iframe{border-style: none; border-color: inherit; border-width: 0;}
+em, address{font-style:normal;}
+textarea{overflow:auto;}
+table{border-collapse:collapse; border-spacing:0;}
+input, select, textarea{font-size:100%; vertical-align:middle; box-sizing:border-box;}
+
+/* Hyper Link */
+a,
+a:link,
+a:visited{text-decoration:none !important;}
+a:active,
+a:hover{text-decoration:none !important;}
+
+/* Hidden Content */
+.skip{font-size: 1px; height: 1px; line-height: 1px; overflow: hidden; position: absolute; text-indent: 4px; white-space: nowrap; width: 1px;}
+
+/* hr , legend , caption */
+hr, legend, caption{clear:both; display:none; list-style:none; position:absolute; top:0; left:0; width:0; height:0; margin:0; padding:0; border:0; background:none; font-size:0px; line-height:0; visibility:hidden;}
+
+/* Png IE6 */
+* html .png24{tmp:expression(setPng24(this));}
+
+/* fix */
+.fix{*zoom:1;}
+.fix:after{content:""; clear:both; display:block;}
+
+/* Lang Exchange */
+.en{ime-mode:disabled; }
+.kr{ime-mode:active; }
+
+/* Cursor */
+.hand{cursor:pointer;}
+
+/* float */
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+
+/* margin */
+.mgt5{margin-top:5px !important;}
+.mgt10{margin-top:10px !important;}
+.mgt15{margin-top:15px !important;}
+.mgt20{margin-top:20px !important;}
+.mgt25{margin-top:25px !important;}
+.mgt30{margin-top:30px !important;}
+.mgt35{margin-top:35px !important;}
+.mgt40{margin-top:40px !important;}
+.mgt45{margin-top:45px !important;}
+.mgt50{margin-top:50px !important;}
+.mgt55{margin-top:55px !important;}
+.mgt60{margin-top:60px !important;}
+.mgt70{margin-top:70px !important;}
+.mgt90{margin-top:90px !important;}
+.mgb5{margin-bottom:5px !important;}
+.mgb7{margin-bottom:7px !important;}
+.mgb10{margin-bottom:10px !important;}
+.mgb14{margin-bottom:14px !important;}
+.mgb15{margin-bottom:15px !important;}
+.mgb17{margin-bottom:17px !important;}
+.mgb20{margin-bottom:20px !important;}
+.mgb25{margin-bottom:25px !important;}
+.mgb30{margin-bottom:30px !important;}
+.mgb35{margin-bottom:35px !important;}
+.mgb40{margin-bottom:40px !important;}
+.mgb45{margin-bottom:45px !important;}
+.mgb50{margin-bottom:50px !important;}
+.mgb55{margin-bottom:55px !important;}
+.mgb60{margin-bottom:60px !important;}
+.mgb65{margin-bottom:65px !important;}
+.mgb80{margin-bottom:80px !important;}
+.mgb90{margin-bottom:90px !important;}
+.mgl5{margin-left:5px !important;}
+.mgl10{margin-left:10px !important;}
+.mgl15{margin-left:15px !important;}
+.mgl20{margin-left:20px !important;}
+.mgl25{margin-left:25px !important;}
+.mgl30{margin-left:30px !important;}
+.mgl35{margin-left:35px !important;}
+.mgl40{margin-left:40px !important;}
+.mgl45{margin-left:45px !important;}
+.mgl50{margin-left:50px !important;}
+.mgl55{margin-left:55px !important;}
+.mgl60{margin-left:60px !important;}
+.mgr5{margin-right:5px !important;}
+.mgr10{margin-right:10px !important;}
+.mgr15{margin-right:15px !important;}
+.mgr20{margin-right:20px !important;}
+.mgr25{margin-right:25px !important;}
+.mgr30{margin-right:30px !important;}
+.mgr35{margin-right:35px !important;}
+.mgr40{margin-right:40px !important;}
+.mgr45{margin-right:45px !important;}
+.mgr50{margin-right:50px !important;}
+.mgr55{margin-right:55px !important;}
+.mgr60{margin-right:60px !important;}
+.mgr_x{margin-right:0 !important;}
+
+.center{text-align:center !important;}
+.left{text-align:left !important;}
+.right{text-align:right !important;}
+
+.log_info_wrap{position:absolute; top:0; left:0;}
+.blue{background:#205fb4 !important;}
+.green{background:#82b024 !important;}
+.orange{background:#ff7d39 !important;}
+.red{background:#cf1218 !important;}
+/* 최명훈(160628) */
+.purple{background:#613dc9 !important;}
+/* /최명훈(160628) */

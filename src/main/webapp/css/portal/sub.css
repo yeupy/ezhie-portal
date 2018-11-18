@@ -1,0 +1,245 @@
+﻿@charset "UTF-8";
+
+html,body{background:#f3f3f3;}
+.contents_form{padding:13px;}
+
+/***** location_section *****/
+.location_section{border:1px solid #cecece; background:#fff; padding:17px 17px 16px 14px;}
+.top_location{}
+.top_location .location_tit{font-size:22px; font-weight:600; float:left; letter-spacing:-2px;}
+.top_location .brc{background:url(../../images/portal/main/bg_home.gif) no-repeat 0 0; float:left; margin-top:9px; margin-left:12px; padding:1px 0 1px 29px; vertical-align:bottom;}
+.top_location .brc li{background:url(../../images/portal/main/bg_brc_arrow.png) no-repeat 0 center; color:#888; float:left; font-size:11px; letter-spacing:-0.5px; vertical-align:bottom; margin-left:8px; padding-left:9px;}
+.top_location .brc li:first-child{background:none; margin-left:0; padding-left:0;}
+.top_location .brc li strong{color:#3a3939;}
+
+.btm_location{border:1px solid #ddd; background:#f8f8f8; margin-top:10px;}
+.btm_location .location_sub_tit{background:url(../../images/portal/main/bg_search.png) no-repeat 0 center; float:left; padding:8px 33px 8px 17px; margin-left:12px; border-right:1px solid #ddd;}
+.btm_location form{float:left; margin-top:5px; margin-left:6px;}
+.btm_location .btn_location{float:right; margin-top:5px; margin-right:11px; font-size:0;}
+.btm_location .btn_location li{display:inline-block; margin-right:2px;}
+.btm_location select{border-radius:0;}
+.btm_location input[type="text"]{width:130px; border-radius:0;}
+.btm_location input[type="images"]{margin-left:-2px;}
+
+/***** main_section *****/
+.main_section{width:100%; margin-top:13px; background:#cecece;}
+.main_section .lft_tile{width:49.8%; border:1px solid #cecece; float:left; position:relative;}
+.main_section .rgt_tile{width:49.8%; border:1px solid #cecece; float:right;}
+.main_section .cnt_tile{border:1px solid #cecece; position:relative;}
+.main_section .one_tile{width:100%; border:1px solid #cecece; position:relative;}
+
+.title_tile h5{background:#ebebeb; border-bottom:1px solid #cecece; color:#12151c; font-size:13px; font-weight:600; padding:10px 0 10px 14px; letter-spacing:-2px;}
+
+.lft_tile .content_tile{padding:14px; background:#fff;}
+.rgt_tile .content_tile{padding:14px 14px 14px 25px; background:#fff;}
+.cnt_tile .content_tile{padding:14px 14px 14px 25px; background:#fff;}
+.one_tile .content_tile{padding:14px; background:#fff;}
+.content_tile_half{padding:14px 25px 14px 25px;}
+
+/* 최명훈 (160713) */
+.detail_title h6{background:#fff; padding:20px 0 0 25px; font-size:13px; font-weight:600; border-bottom:1px solid transparent; letter-spacing:-2px;}
+.detail_tab{margin-bottom:-1px;}
+.detail_tab li{display:inline-block; background:#e4e4e4; border:1px solid #e4e4e4; border-bottom:0;}
+.detail_tab li.on{background:#fff; border:1px solid #cecece; border-bottom:1px solid #fff;}
+.detail_tab li.on a{color:#000; font-weight:600;}
+.detail_tab li a{display:block; color:#444; padding:9px 35px 9px;}
+/* /최명훈 (160713) */
+
+.content_tile .detail_wrap{border:1px solid #cecece; padding:14px;}
+.medical_addr{margin-bottom:5px; position:relative;}
+.medical_addr .push_btn{position:absolute; width:132px; padding-right:30px;}
+.medical_addr .push_btn a{position:absolute; top:0; right:0;}
+.medical_addr .addr_content{padding-left:166px;}
+.btn_submit{margin-top:14px; float:right; font-size:0;}
+.btn_submit li{display:inline-block; margin-right:2px;}
+
+.detail_wrap .detail_title{background:url(../../images/portal/main/bg_list_arrow.gif) no-repeat right 6px; color:#444; font-size:11px; font-weight:600; margin-top:11px; margin-bottom:7px; letter-spacing:-0.25px;}
+.detail_wrap .detail_title.first_title{margin-top:0;}
+
+.lft_top{margin-bottom:4px; position:relative;}
+.lft_btm{position:relative;}
+.split{position:absolute; right:-15px; top:45%; z-index:50;}
+.lft_top .split_2{position:absolute; left:45%; bottom:-15px; z-index:50;}
+.lft_btm .split_3{position:absolute; right:-15px; top:0; z-index:50;}
+
+/* 최명훈(160615) */
+.cnt_tile{float:left; margin-left:0.1%;}
+/* /최명훈(160615) */
+
+/***** common *****/
+.input_text{width:100%; border:1px solid #ddd; height:22px; font-size:11px; color:#444; padding-left:7px;}
+.input_text1{width:100%; border:1px solid #ddd; height:22px; font-size:11px; color:#444; padding-left:7px;}
+.select_text{width:100%; border:1px solid #ddd; height:22px; font-size:11px; color:#444; padding-left:7px;}
+/* 최명훈(160712) */
+.select_text1{width:100%; border:1px solid #ddd; height:22px; font-size:11px; color:#444; padding-left:7px;}
+/* /최명훈(160712) */
+.textarea_text{width:100%; border:1px solid #ddd; font-size:11px; color:#444; }
+
+/* 최명훈(160629) */
+textarea{resize:none;}
+/* /최명훈(160629) */
+
+.pageList{text-align:center; margin-top:14px;}
+.pageList .btn_page{display:inline-block;}
+.pageList .btn_first{margin-right:7px;}
+.pageList .btn_pre{margin-right:10px;}
+.pageList .btn_next{margin-left:2px;}
+.pageList .btn_last{margin-left:7px;}
+.pageList .page_num{display:inline-block;}
+.pageList .page_num li{display:inline-block; margin-right:8px;color:#abadaf; font-size:11px;}
+.pageList .page_num li.on {text-decoration:underline !important; color:#12151c; font-size:11px; font-weight:600;}
+
+/***** 테이블 *****/
+.master_table{border-top:2px solid #12151c; width:100%; letter-spacing:-0.5px; table-layout:fixed;}
+/* .master_table thead th 수정 */
+.master_table thead th{border:1px solid #ddd; border-bottom:1px solid #12151c; color:#000; padding:8px 0; font-size:12px; position:relative;}
+.master_table tbody tr:hover td{background:#dfdfdf !important; font-weight:600;}
+.master_table tbody td{border:1px solid #ddd; color:#444; text-align:center; padding:8px; font-size:11px;}
+.master_table tbody tr:nth-child(odd) td{background:#f9f9f9;}
+.master_table tbody tr:nth-child(even) td{background:#fff;}
+.master_table tbody td a{color:#444;}
+
+.detail_table_type1{width:100%; letter-spacing:-0.5px;}
+.detail_table_type1 th{background:#f3f3f3; border:1px solid #cecece; text-align:left; padding:10px 12px; font-weight:400; font-size:11px;}
+.detail_table_type1 td{border:1px solid #cecece; padding:5px;}
+
+.detail_table_type2{width:100%; letter-spacing:-0.5px; }
+.detail_table_type2 th{border:1px solid #d1d1d1; color:#444; padding:10px 0; font-size:11px; background-color:#f3f3f3;}
+.detail_table_type2 tbody tr:hover td{background:#dfdfdf !important; font-weight:600;}
+.detail_table_type2 tbody td{border:1px solid #d1d1d1; color:#444; text-align:center; padding:8px; font-size:11px;}
+
+.addr_list{margin-top:10px; height:410px; letter-spacing:-0.5px;}
+.addr_table{width:100%;}
+.addr_table thead th{padding:6px 0; font-size:12px; border:1px solid #ddd;}
+.addr_table tbody tr:hover td{background:#dfdfdf !important;}
+.addr_table tbody td{padding:6px 5px; font-size:12px; border:1px solid #ddd; text-align:center;}
+.addr_table tbody tr:nth-child(odd) td{background:#f9f9f9;}
+.addr_table tbody tr:nth-child(even) td{background:#fff;}
+.addr_table .new_addr a{color:#333;}
+.addr_table .old_addr a{color:#666;}
+
+/* 최명훈(160615) */
+.sort_table th{ cursor:pointer;}
+/* 최명훈(160712) */
+.sort_table th p{position:absolute; top:6px; right:4%;}
+/* /최명훈(160712) */
+.sort_table th p a{display:none;}
+.th_wrap{position:relative;}
+/* /최명훈(160615) */
+
+/***** 버튼 *****/
+.btn_notice{display:inline-block; background:#3b3b3b; color:#fff; padding:4px 10px 4px 11px; border-bottom:1px solid #000; border-right:1px solid #000; border-radius:4px;}
+.btn_notice span{background:url(../../images/portal/main/bg_notice.png) no-repeat 0 50%; padding-left:14px; font-size:10px; letter-spacing:-0.5px;}
+.btn_check{display:inline-block; background:#3b3b3b; color:#fff; padding:4px 10px 4px 11px; border-bottom:1px solid #000; border-right:1px solid #000; border-radius:4px;}
+.btn_check span{background:url(../../images/portal/main/bg_check.png) no-repeat 0 50%; padding-left:14px; font-size:10px; letter-spacing:-0.5px;}
+.btn_new{display:inline-block; background:#3b3b3b; color:#fff; padding:4px 10px 4px 11px; border-bottom:1px solid #000; border-right:1px solid #000; border-radius:4px;}
+.btn_new span{background:url(../../images/portal/main/bg_new.png) no-repeat 0 50%; padding-left:14px; font-size:10px; letter-spacing:-0.5px;}
+
+.btn_reset{display:inline-block; background:#fff; color:#444; padding:6px 9px 6px 10px; border:1px solid #7e7e7e; border-radius:4px; font-size:11px;}
+.btn_reset span{background:url(../../images/portal/main/bg_reset.png) no-repeat 0 50%; padding-left:18px; letter-spacing:-0.5px;}
+.btn_new_user{display:inline-block; background:#205fb4; color:#fff; padding:6px 10px 6px 11px; border-radius:4px; font-size:11px;}
+.btn_new_user span{background:url(../../images/portal/main/bg_new_user.png) no-repeat 0 50%; padding-left:18px; letter-spacing:-0.5px;}
+.btn_save{display:inline-block; background:#205fb4; color:#fff; padding:6px 10px 6px 11px; border-radius:4px; font-size:11px;}
+.btn_save span{background:url(../../images/portal/main/bg_save.png) no-repeat 0 50%; padding-left:18px; letter-spacing:-0.5px;}
+.btn_del{display:inline-block; background:#205fb4; color:#fff; padding:6px 10px 6px 11px; border-radius:4px; font-size:11px;}
+.btn_del span{background:url(../../images/portal/main/bg_del.png) no-repeat 0 50%; padding-left:18px; letter-spacing:-0.5px;}
+.btn_auth{display:inline-block; background:#205fb4; color:#fff; padding:6px 10px 6px 11px; border-radius:4px; font-size:11px;}
+.btn_auth span{background:url(../../images/portal/main/bg_auth.png) no-repeat 0 50%; padding-left:18px; letter-spacing:-0.5px;}
+.btn_new_level{display:inline-block; background:#205fb4; color:#fff; padding:6px 10px 6px 11px; border-radius:4px; font-size:11px;}
+.btn_new_level span{background:url(../../images/portal/main/bg_new_level.png) no-repeat 0 50%; padding-left:18px; letter-spacing:-0.5px;}
+.btn_cancel{display:inline-block; background:#205fb4; color:#fff; padding:6px 10px 6px 11px; border-radius:4px; font-size:11px;}
+.btn_cancel span{background:url(../../images/portal/main/bg_del.png) no-repeat 0 50%; padding-left:18px; letter-spacing:-0.5px;}
+/* 최명훈(160713) */
+.btn_minus{display:inline-block; background:#3b3b3b; color:#fff; padding:4px 10px 4px 11px; border-bottom:1px solid #000; border-right:1px solid #000; border-radius:4px;}
+.btn_minus span{background:url(../../images/portal/main/bg_minus.png) no-repeat 0 50%; padding-left:14px; font-size:10px; letter-spacing:-0.5px;}
+/* /최명훈(160713) */
+
+/* 최명훈(160617) */
+.blue_theme .btn_new_user{background:#205fb4;}
+.green_theme .btn_new_user{background:#419838;}
+.orange_theme .btn_new_user{background:#e96826;}
+.red_theme .btn_new_user{background:#cf1218;}
+.purple_theme .btn_new_user{background:#613dc9;}
+
+.blue_theme .btn_save{background:#205fb4;}
+.green_theme .btn_save{background:#419838;}
+.orange_theme .btn_save{background:#e96826;}
+.red_theme .btn_save{background:#cf1218;}
+.purple_theme .btn_save{background:#613dc9;}
+
+.blue_theme .btn_del{background:#205fb4;}
+.green_theme .btn_del{background:#419838;}
+.orange_theme .btn_del{background:#e96826;}
+.red_theme .btn_del{background:#cf1218;}
+.purple_theme .btn_del{background:#613dc9;}
+
+.blue_theme .btn_auth{background:#205fb4;}
+.green_theme .btn_auth{background:#419838;}
+.orange_theme .btn_auth{background:#e96826;}
+.red_theme .btn_auth{background:#cf1218;}
+.purple_theme .btn_auth{background:#613dc9;}
+
+.blue_theme .btn_new_level{background:#205fb4;}
+.green_theme .btn_new_level{background:#419838;}
+.orange_theme .btn_new_level{background:#e96826;}
+.red_theme .btn_new_level{background:#cf1218;}
+.purple_theme .btn_new_level{background:#613dc9;}
+
+/* 최명훈(160712) */
+.blue_theme .scription_table tr.color td{background:#205fb4; color:#fff;}
+.green_theme .scription_table tr.color td{background:#419838; color:#fff;}
+.orange_theme .scription_table tr.color td{background:#FF7D39; color:#fff;}
+.red_theme .scription_table tr.color td{background:#CF1218; color:#fff;}
+.purple_theme .scription_table tr.color td{background:#613dc9; color:#fff;}
+/* /최명훈(160712) */
+
+/* /최명훈(160617) */
+
+.form_wrap{margin-bottom:40px;}
+.form_wrap label {display:inline-block; padding:6px 9px; color:#fff; vertical-align:middle; background-color:#c1c1c1; cursor:pointer; border:1px solid #ebebeb; border-bottom-color:#e2e2e2; border-radius:3px; }
+input[type="file"]{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0;}
+.upload_chk{text-align:center; font-size:14px; font-weight:600; border:1px solid #e6e6e6; border-radius:5px; padding:15px 5px; visibility:hidden;}
+
+/* 최명훈(160615) */
+.upload{display:inline-block; padding:6px 9px; color:#fff; vertical-align:middle; background-color:#c1c1c1; cursor:pointer; border:1px solid #ebebeb; border-bottom-color:#e2e2e2; border-radius:3px; }
+
+/***** Q&A *****/ 
+.borad{background:#fff; padding-bottom:10px; margin-bottom:10px; border:2px solid #cecece;}
+.borad .user_info{background:#e4e4e4; padding:5px;}
+.update{float:left;}
+.writer{float:left; font-weight:600; margin-left:40px;}
+.board_btn{float:right;}
+.board_btn li{float:left; margin-right:5px;}
+.board_btn li a{color:#444;}
+.board_contents{padding:5px;}
+
+.re .user_info{background:#f3f3f3; padding:5px;}
+.re .board_contents{padding:10px 5px;}
+.re{padding:5px 0;}
+.re_wrap{border:2px dotted #cecece;}
+/* /최명훈(160615) */
+
+/* 최명훈(160712) */
+.button_section{float:left; margin-top:6px; margin-right:15px;}
+.button_section input{margin-left:15px; cursor:pointer;}
+.button_section label{cursor:pointer;}
+
+.date_section{float:left;}
+.date_section strong{float:left; display:block; padding:8px 30px 8px 30px; margin-right:15px; background:#f8f8f8; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+
+.patientInfo{background:#fff; border:1px solid #ddd; color:#12151c; font-size:13px; font-weight:600; letter-spacing:-2px; margin-top:10px;}
+.patientInfo dl{}
+.patientInfo dl dt{float:left; background:#f8f8f8 url(../../images/portal/main/bg_squ_b.gif) no-repeat 14px 50%; padding:8px 73px 8px 29px; border-right:1px solid #cecece;}
+.patientInfo dl dd{float:left; background:#fff; padding:8px 86px 8px 15px;}
+
+.scription_table{width:100%;}
+.scription_table thead tr th{border:1px solid #cecece; background:#f6f5f0; padding:10px; font-size:11px; font-weight:400; color:#444;}
+.scription_table thead tr:first-child th{background:#f3f3f3;}
+.scription_table tbody td{border:1px solid #cecece; padding:8px; text-align:center; font-size:11px; color:#444;}
+.scription_table tbody td input[type="checkbox"]{cursor:pointer;}
+.scription_table tr.color td{background:#205fb4; color:#fff;}
+
+.text_section{float:left;}
+
+.regiWrap{margin-top:0; border:1px solid #ddd; background:#fff;}
+/* /최명훈(160712) */
